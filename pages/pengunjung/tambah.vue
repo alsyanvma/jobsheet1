@@ -55,9 +55,16 @@
               <option value="kembalikan">Kembalikan Buku</option>
             </select>
           </div>
-          <button type="submit" class="btn btn-dark btn-lg rounded-5 px-5">KIRIM</button>
+          <nuxt-link to="../pengunjung"><button type="submit" class="btn btn-lg rounded-5 px-5 bg-success text-white" style="float: right;">Kirim</button></nuxt-link>
+
         </form>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.btn.bg-success {
+  background-color: rgb(164, 127, 199) !important;
+}
+</style>

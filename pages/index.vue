@@ -22,6 +22,30 @@
             </div>
         </div>
     </div>
+    <h1 class="statistik">STATISTIK</h1>
+    
+    <div class="container-fluid">
+        <div class="row my-5">
+            <div class="col-lg-6">
+                <nuxt-link to="/pengunjung">
+                <div class="card bg-warning rounded-5">
+                <div class="card-body">
+                    <h3>32 Pengunjung</h3>
+                </div>
+                </div>
+                </nuxt-link>
+            </div>
+            <div class="col-lg-6">
+                <nuxt-link to="/buku">
+                <div class="card bg-success rounded-5">
+                    <div class="card-body">
+                        <h4>180 Buku</h4>
+                    </div>
+                </div>
+                </nuxt-link>
+            </div>
+        </div>
+    </div>
 </template>
 
 
@@ -36,6 +60,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    opacity: 90;
 }
 
 .card.bg-buku {
@@ -43,5 +68,29 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    opacity: 90%;
+}
+
+h2 {
+    color: black;
+    opacity: 100%;
+}
+
+h1 {
+    color: black;
+}
+
+h3 {
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    margin: 40px;
+}
+
+h4 {
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    margin: 40px;
 }
 </style>
